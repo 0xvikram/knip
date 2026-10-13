@@ -13,7 +13,7 @@ test('Find dependencies with the Mocha plugin', async () => {
 
   assert.deepEqual(counters, {
     ...baseCounters,
-    processed: 6,
-    total: 6,
+    processed: 8,
+    total: 8,
   });
 });
